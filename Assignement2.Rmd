@@ -1,0 +1,28 @@
+---
+output: htmltitle: "Movie Ratings SQL & R Project"
+name: Guibril Ramde
+date: 2026-02-05
+output: html_document
+
+---
+
+# Approach
+
+My approach to this assignment is as follows:
+
+First, I will select six recent movies. The movies I chose are:
+
+1. Avatar: The Way of Water  
+2. Avengers: Endgame  
+3. Inside Out 2  
+4. Top Gun: Maverick  
+5. The Lion King  
+6. Spider-Man: No Way Home  
+
+How did I choose these movies? I used a language model (LLM) to identify some of the most popular recent films.  
+
+Next, I will ask five people to rate each of these movies on a scale of 1–5.  
+
+Using the collected information, I will create tables in PostgreSQL and insert all the relevant data.  
+
+After that, I will connect the database to RStudio and use the `tidyverse` packages to query and analyze the data. I will also handle any missing ratings appropriately during the analysis.

@@ -1,0 +1,8 @@
+install.packages("DBI")
+library(DBI)
+install.packages("RPostgres")
+library(RPostgres)
+install.packages("dplyr")
+library(dplyr)
+install.packages("tidyr")
+library(tidyr)
