@@ -1,5 +1,5 @@
 ---
-output: htmltitle: "Movie Ratings SQL & R Project"
+title: "Movie Ratings SQL & R Project"
 name: Guibril Ramde
 date: 2026-02-05
 output: html_document

@@ -1,0 +1,23 @@
+---
+title: "Penguin Predictions Analysis"
+author: "Guibril Ramde"
+date: "2026-02-05"
+output: html_document
+---
+
+# Approach
+
+In this assignment, I will analyze the performance of a binary classification model predicting penguin sex.  
+
+The workflow will be as follows:
+
+1. **Load the data**: I will download the raw CSV file from GitHub and load it into R.  
+2. **Install and load required libraries**: Necessary libraries such as `ggplot2` and `dplyr` will be used for visualization and data manipulation.  
+3. **Compute the null error rate**: This baseline metric shows the error if we always predict the majority class.  
+4. **Visualize class distribution**: A plot will provide insight into the balance of the dataset and help interpret the null error rate.  
+5. **Compute confusion matrices**: I will calculate TP, FP, TN, and FN at multiple probability thresholds.  
+6. **Calculate performance metrics**: Accuracy, precision, recall, and F1 score will be computed for each threshold.  
+7. **Discuss threshold use cases**: I will describe scenarios where different thresholds are preferable.  
+
+The raw CSV file is located at:  
+[Penguin Predictions CSV](https://raw.githubusercontent.com/acatlin/data/refs/heads/master/penguin_predictions.csv)
