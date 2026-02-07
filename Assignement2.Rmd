@@ -26,3 +26,13 @@ Next, I will ask five people to rate each of these movies on a scale of 1–5.
 Using the collected information, I will create tables in PostgreSQL and insert all the relevant data.  
 
 After that, I will connect the database to RStudio and use the `tidyverse` packages to query and analyze the data. I will also handle any missing ratings appropriately during the analysis.
+
+#Summary
+For this project, I worked on combining SQL and R to collect, store, and analyze movie ratings. I selected six recent movies and gathered ratings from five users, then created tables in PostgreSQL to organize the data. Connecting the database to RStudio allowed me to explore and analyze the data using the tidyverse packages.
+
+Through this process, I learned how to handle missing ratings, reshape data for analysis, and compute useful statistics like average ratings for movies and users. This experience gave me hands-on practice with both database management and data analysis, which are key skills in data science and analytics.
+
+# conlcusion
+This assignment was both challenging and rewarding. At first, I struggled with setting up the connection between PostgreSQL and RStudio, which taught me the importance of careful configuration and managing environment variables. Analyzing the data also posed some challenges, especially when calculating averages and dealing with missing values.
+
+Overall, working through these difficulties helped me understand how SQL and R can work together in real-world projects. I feel more confident in my ability to manage and analyze data, and this project has given me a concrete example I can include in a portfolio or discuss in interviews. It was a great opportunity to apply what I’ve learned in a practical way and to strengthen my problem-solving skills along the way.
