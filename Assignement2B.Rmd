@@ -21,3 +21,9 @@ The workflow will be as follows:
 
 The raw CSV file is located at:  
 [Penguin Predictions CSV](https://raw.githubusercontent.com/acatlin/data/refs/heads/master/penguin_predictions.csv)
+
+#Conclusion
+
+tAssignment 2B was challenging and required careful attention to both the conceptual and practical aspects of classification model evaluation. In particular, reproducing predicted classes at different probability thresholds and manually computing the corresponding confusion matrices required a deeper understanding of how model outputs translate into performance metrics.
+
+Overall, the identical performance metrics observed across multiple thresholds indicate that the model’s predicted probabilities are concentrated away from the threshold boundaries. As a result, adjusting the probability threshold does not change the predicted class labels, leading to identical confusion matrices and, consequently, identical accuracy, recall, and F1 scores. This outcome highlights the importance of examining the distribution of predicted probabilities when interpreting threshold-based evaluation results.
